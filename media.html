@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="elevator.js-1.0.1/elevator.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="head">
+                <div class="head_1">
+                    <div class="container_head">
+                        <h1>Российская<br>империя</h1>
+                        
+                        <div class="line_header"></div> <!--полоска-->
+                    </div>
+                    <div class="container_head_button">
+                        <ul>
+                            <li class="list_big"><a href="index.html">Правители</a></li>
+                            <li class="list_big"><a href="achievements.html">Достижения</a></li>
+                            <li class="list_big"><a href="">Реформы</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="head_1">
+                    <div class = "container_search">
+                        <input type="text" id="search_search" class="search_bar" placeholder="Поиск" onkeyup="search()" name="search" >
+                    </div>
+                   <div class="dropdown">
+                    <div id="myDropdown" class="dropdown-content">
+
+                        <a class="list" href="index.html">Главная</a>
+                        <a class="list" href="">Интересные статьи</a>
+                        <a class="list" href="media.html">Медиа</a>
+                        <a class="list" href="">Жалобы</a>
+                        <a class="list" href="">О нас</a>
+            
+                    </div>
+                    
+                    <button onclick="myFunction()" class="dropbtn">
+                        <div class="burger-menu__stick"></div>
+                        <div class="burger-menu__stick"></div>
+                        <div class="burger-menu__stick"></div>
+                    </button>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div >
+            <div class="container_head_button">
+                <ul class="button_small">
+                    <li class="list_small"><a href="index.html">Правители</a></li>
+                    <li class="list_small"><a href="achievements.html">Достижения</a></li>
+                    <li class="list_small"><a href="">Реформы</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="small">
+            <div class = "container_search">
+                <input type="text" id="search_search_small" class="search_bar_small" onkeyup="search_small()" placeholder="Поиск">
+            </div>
+        </div>
+        <div class="container_hub">
+            <div class ="hub" >
+                <img src="pictures\Home.png" alt="Главная" width="25" height="25">
+                <ul class = "ul_hub">
+                    <li class="list_hub"><img src="pictures\arrow.png" alt="" width="25" height="25" class = "arrow"></li>
+                    <li class="list_hub"><a href="index.html">Российская империя</a></li>
+                    <li class="list_hub"><img src="pictures\arrow.png" alt="" width="25" height="25" class = "arrow"></li>
+                    <li class="list_hub"><a href="media.html">Медиа</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="main_container">
+            <div class="chapter">
+                <h2>Медиа</h2>
+                <div class="line_main"></div>
+            </div>
+            <div class="search_object">
+                <div class="container_media">
+                    <img src="pictures/0018.png" alt="Илья Муромец"  class="media"> 
+                    <p>"Илья Муромец - общий план"</p>
+                </div>
+            </div>
+            
+            <div class="search_object">
+                <div class="container_media">
+                    <img src="pictures/outside.png" alt="Илья Муромец"  class="media"> 
+                    <p>"Илья Муромец - снаружи"</p>
+                </div>
+            </div>
+
+            <div class="search_object">
+                <div class="container_media">
+                    <img src="pictures/inside.png" alt="Илья Муромец" class="media"> 
+                    <p>"Илья Муромец - внутри"</p>
+                </div>
+            </div>
+
+            <div class="search_object">
+                <div class="container_media">
+                <video src="pictures/video.mp4"  alt="Видео" class="video" controls></video>
+                    <p>"Илья Муромец"</p>
+                </div>
+            </div>
+
+            <div class="search_object">
+                <div class="container_media" id="target">
+                    <img src="pictures\Petr I.jpg" alt="Пётр I" width="204" height="300" class="people">
+                    <p>"Пётр I"</p>
+                </div>
+            </div>
+            
+        </div>
+        
+    </main>
+    <footer>
+        <div class="container_footer">
+            <div><p>2025-2026</p></div>
+            <div class="elevator-button"><p>25-ИСТ-1-2 Лобанов И.Д.</p></div>
+        </div>
+
+        <script>
+            // Elevator script included on the page, already.
+
+            window.onload = function() {
+            var elevator = new Elevator({
+                element: document.querySelector('.elevator-button'),
+                mainAudio: 'music/Cooking-Long-Version(chosic.com).mp3',
+                duration: 60000
+            });
+            }
+        </script>
+            </footer>
+    <script src="JavaScript.js"></script>
+   
+
+</body>
+</html>

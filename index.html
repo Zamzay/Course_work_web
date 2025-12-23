@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="head">
+                <div class="head_1">
+                    <div class="container_head">
+                        <h1>Российская<br>империя</h1>
+                        
+                        <div class="line_header"></div> <!--полоска-->
+                    </div>
+                    <div class="container_head_button">
+                        <ul>
+                            <li class="list_big"><a href="index.html">Правители</a></li>
+                            <li class="list_big"><a href="achievements.html">Достижения</a></li>
+                            <li class="list_big"><a href="">Реформы</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="head_1">
+                    <div class = "container_search">
+                        <input type="text" id="search_search" class="search_bar" placeholder="Поиск" onkeyup="search()" name="search" >
+                    </div>
+                   <div class="dropdown">
+                    <div id="myDropdown" class="dropdown-content">
+
+                        <a class="list" href="index.html">Главная</a>
+                        <a class="list" href="">Интересные статьи</a>
+                        <a class="list" href="media.html">Медиа</a>
+                        <a class="list" href="">Жалобы</a>
+                        <a class="list" href="">О нас</a>
+            
+                    </div>
+                    
+                    <button onclick="myFunction()" class="dropbtn">
+                        <div class="burger-menu__stick"></div>
+                        <div class="burger-menu__stick"></div>
+                        <div class="burger-menu__stick"></div>
+                    </button>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div >
+            <div class="container_head_button">
+                <ul class="button_small">
+                    <li class="list_small"><a href="index.html">Правители</a></li>
+                    <li class="list_small"><a href="achievements.html">Достижения</a></li>
+                    <li class="list_small"><a href="">Реформы</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="small">
+            <div class = "container_search">
+                <input type="text" id="search_search_small" class="search_bar_small" onkeyup="search_small()" placeholder="Поиск">
+            </div>
+        </div>
+        <div class="container_hub">
+            <div class ="hub" >
+                <img src="pictures\Home.png" alt="Главная" width="25" height="25">
+                <ul class = "ul_hub">
+                    <li class="list_hub"><img src="pictures\arrow.png" alt="" width="25" height="25" class = "arrow"></li>
+                    <li class="list_hub"><a href="">Российская империя</a></li>
+                    <li class="list_hub"><img src="pictures\arrow.png" alt="" width="25" height="25" class = "arrow"></li>
+                    <li class="list_hub"><a href="">Правители</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="main_container">
+            <div class="chapter">
+                <h2 >Правители</h2>
+                <div class="line_main"></div>
+            </div>
+            
+            <div class="search_object">
+                <h2>Пётр I</h2>
+                <div class="main_text">
+                    <div class="text">
+                        <p>Пётр I, родившийся в 1672 году, стал одним из самых значимых российских правителей. В 1697—1698 годах он организовал «Великое посольство» в Европу, чтобы найти союзников в будущей войне против Швеции, а также пригласить иностранных специалистов и ознакомиться с европейскими практиками. Этот поход стал важным этапом его европеизации и модернизации России.</p>
+                        <p>Внутри страны Пётр столкнулся с недовольством старых порядков: в Москве вспыхнуло стрелецкое восстание 1698 года, участники которого планировали вернуть на престол царевну Софью. Кроме того, в 1682 и 1698 годах происходили стрелецкие бунты, боярские распри и неудачи в войне со Швецией, в частности, в битве при Нарве. </p>
+                        <p>Петр начал масштабные реформы: создал современный флот, реформировал армию, открыл образовательные учреждения, такие как Петербургская академия наук, поощрял развитие промышленности. Он упразднил боярскую думу и патриаршество, создал Сенат и Священный Синод, реформировал систему управления, введя коллегии и Табель о рангах. В 1700 году Россия перешла на новый календарь, а в 1703 году основан Санкт-Петербург. </p>
+                        <p>Петр активно вёл военные кампании, в том числе Великую Северную войну (1700–1721), которая завершилась победой России и присоединением новых территорий на Балтийском побережье. В 1709 году русская армия одержала победу в Полтавской битве, что стало переломным моментом в войне. В 1721 году Россия была провозглашена империей, и Пётр стал первым императором. </p>
+                        <p>В целом, его правление было направлено на укрепление государства, модернизацию экономики и культуры, а также на усиление абсолютной власти. Эти преобразования сопровождались жесткими мерами.</p>
+                    </div>
+                    <div class="container_media">
+                        <img src="pictures\Petr I.jpg" alt="Пётр I" class="people">
+                        <p>"Пётр I"</p>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+        
+    </main>
+    <footer>
+        <div class="container_footer">
+            <div><p>2025-2026</p></div>
+            <div><p>25-ИСТ-1-2 Лобанов И.Д.</p></div>
+        </div>
+        
+    </footer>
+    <script src="JavaScript.js"></script>
+</body>
+</html>
