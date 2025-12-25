@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Российская Империя</title>
     <link rel="stylesheet" href="style.css">
     <script src="elevator.js-1.0.1/elevator.js"></script>
 </head>
@@ -20,8 +20,8 @@
                     <div class="container_head_button">
                         <ul>
                             <li class="list_big"><a href="index.html">Правители</a></li>
-                            <li class="list_big"><a href="achievements.html">Достижения</a></li>
-                            <li class="list_big"><a href="">Реформы</a></li>
+                            <li class="list_big"><a href="inventions.html">Изобретения</a></li>
+                            <li class="list_big"><a href="reforms.html">Реформы</a></li>
                         </ul>
                     </div>
                 </div>
@@ -33,15 +33,15 @@
                     <div id="myDropdown" class="dropdown-content">
 
                         <a class="list" href="index.html">Главная</a>
-                        <a class="list" href="">Интересные статьи</a>
+                        <a class="list" href="articles.html">Интересные статьи</a>
                         <a class="list" href="media.html">Медиа</a>
-                        <a class="list" href="">Жалобы</a>
-                        <a class="list" href="">О нас</a>
+                        <a class="list" href="complaint.html">Жалобы</a>
+                        <a class="list" href="about_us.html">О нас</a>
             
                     </div>
                     
-                    <button onclick="myFunction()" class="dropbtn">
-                        <div class="burger-menu__stick"></div>
+                    <button onclick="myFunction()" class="dropbtn" aria-label="Menu">
+                        <div class="burger-menu__stick"></div> 
                         <div class="burger-menu__stick"></div>
                         <div class="burger-menu__stick"></div>
                     </button>
@@ -55,8 +55,8 @@
             <div class="container_head_button">
                 <ul class="button_small">
                     <li class="list_small"><a href="index.html">Правители</a></li>
-                    <li class="list_small"><a href="achievements.html">Достижения</a></li>
-                    <li class="list_small"><a href="">Реформы</a></li>
+                    <li class="list_small"><a href="inventions.html">Достижения</a></li>
+                    <li class="list_small"><a href="reforms.html">Реформы</a></li>
                 </ul>
             </div>
         </div>
@@ -84,6 +84,13 @@
                 <h2>Медиа</h2>
                 <div class="line_main"></div>
             </div>
+
+            <div class="search_object">
+                <div class="container_media">
+                    <audio src="music/Gimn_Rossijjskojj_Imperii_-_Bozhe_Carya_khrani_66576744.mp3" controls></audio>
+                </div>
+            </div>
+            
             <div class="search_object">
                 <div class="container_media">
                     <img src="pictures/0018.png" alt="Илья Муромец"  class="media"> 
@@ -118,14 +125,250 @@
                     <p>"Пётр I"</p>
                 </div>
             </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/ekaterina_I.png" alt="Екатерина I" class="people">
+                        <p>"Екатерина I"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Petr_II.jpg" alt="Пётр II" class="people">
+                        <p>"Пётр II"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Anna_Ioannovna.jpg" alt="Анна Иоанновна" class="people">
+                        <p>"Анна Иоанновна"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Ivan_VI_Antonovich.jpg" alt="Иван VI Антонович" class="people">
+                        <p>"Иван VI Антонович"</p>
+                    </div>
+            </div>
+            
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Elizabeth_Petrovna.jpg" alt="Елизавета Петровна" class="people">
+                        <p>"Елизавета Петровна"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Petr_III.jpg" alt="Пётр III Фёдорович" class="people">
+                        <p>"Пётр III Фёдорович"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Catherine_II.jpg" alt="Екатерина II Алексеевна" class="people">
+                        <p>"Екатерина II Алексеевна"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Pavel_I.png" alt="Павел I Петрович" class="people">
+                        <p>"Павел I Петрович"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Alexandr_I.jpg" alt="Александр I Павлович" class="people">
+                        <p>"Александр I Павлович"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Nikolay_I.jpg" alt="Николай I Павлович" class="people">
+                        <p>"Николай I Павлович"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Alexandr_II.jpg" alt="Александр II" class="people">
+                        <p>"Александр II"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Alexandr_III.jpg" alt="Александр III Александрович" class="people">
+                        <p>"Александр III"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Alexandr_III.jpg" alt="Николай II Александрович" class="people">
+                        <p>"Николай II"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Lvov_ge.jpg" alt="Георгий Евгеньевич Львов" class="people">
+                        <p>"Георгий Евгеньевич"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Alexander_Kerensky.jpg" alt="Александр Фёдорович Керенский" class="people">
+                        <p>"Александр Фёдорович "</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Sani.jpg" alt="Аэросани" class="media"> 
+                        <p>"Аэросани"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Hiperboloid_named_Shukhov_Tower.jpg" alt="Аэросани" class="people"> 
+                        <p>"Гиперболоидная башня"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Grozootmetchik.jpg" alt="Грозоотметчик" class="media"> 
+                        <p>"Грозоотметчик"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/0018.png" alt="Илья Муромец" class="media"> 
+                        <p>"Илья Муромец - общий план"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Iris.jpg" alt="Ирисовая печать" class="media"> 
+                        <p>"Ирисовая печать"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Winogradsky.jpg" alt="Колонна Виноградского" class="media"> 
+                        <p>"Колонна Виноградского. Первая неделя"</p>
+                        <img src="pictures/Kolonna.jpg" alt="Колонна Виноградского" class="media"> 
+                        <p>"Колонна Виноградского. Седьмая неделя"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Paylot.jpg" alt="Пайлот" class="media"> 
+                        <p>"Пайлот"</p>
+                        <img src="pictures/Yermak_icebreaker.jpg" alt="Ермак" class="media"> 
+                        <p>"Ермак"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Podvesnaya_doroga.jpg" alt="Монорельс" class="media"> 
+                        <p>"Монорельс"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Skvajina.jpg" alt="Нефтяная скважина" class="people"> 
+                        <p>"Нефтяная скважина"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/orlovskij.jpg" alt="Орловская печать" class="media"> 
+                        <p>"Орловская печать"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/parashut.jpg" alt="Парашут Котельникова" class="media"> 
+                        <p>"Парашут Котельникова"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Train.jpg" alt="Паровозы Черепановых" class="media"> 
+                        <p>"Паровозы Черепановых"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Tablica.jpg" alt="Периодическая система химических элементов" class="media"> 
+                        <p>"Периодическая система химических элементов"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/radiator.jpg" alt="Радиатор отопления" class="media"> 
+                        <p>"Радиатор отопления"</p>
+                    </div>
+            </div>
+            
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Radio.jpg" alt="Радиоприёмник" class="media"> 
+                        <p>"Радиоприёмник"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/airplane.jpg" alt="Самолёт Можайского" class="media"> 
+                        <p>"Самолёт Можайского"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/svarka.jpg" alt="Сварка" class="media"> 
+                        <p>"Сварка"</p>
+                    </div>
+            </div>
+
+            <div class="search_object">
+                    <div class="container_media">
+                        <img src="pictures/Electro_engine.jpg" alt="Электрический двигатель" class="media"> 
+                        <p>"Электрический двигатель"</p>
+                    </div>
+            </div>
             
         </div>
         
     </main>
     <footer>
         <div class="container_footer">
-            <div><p>2025-2026</p></div>
-            <div class="elevator-button"><p>25-ИСТ-1-2 Лобанов И.Д.</p></div>
+            <p>2025-2026</p>
+            <p class="elevator-button">Наверх</p>
+            <p>25-ИСТ-1-2 Лобанов И.Д.</p>
         </div>
 
         <script>
@@ -139,7 +382,7 @@
             });
             }
         </script>
-            </footer>
+    </footer>
     <script src="JavaScript.js"></script>
    
 

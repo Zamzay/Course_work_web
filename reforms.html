@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Российская Империя</title>
+    <script src="elevator.js-1.0.1/elevator.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_table.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="head">
+                <div class="head_1">
+                    <div class="container_head">
+                        <h1>Российская<br>империя</h1>
+                        
+                        <div class="line_header"></div> <!--полоска-->
+                    </div>
+                    <div class="container_head_button">
+                        <ul>
+                            <li class="list_big"><a href="index.html">Правители</a></li>
+                            <li class="list_big"><a href="inventions.html">Изобретения</a></li>
+                            <li class="list_big"><a href="reforms.html">Реформы</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="head_1">
+                    <div class = "container_search">
+                        <input type="text" id="search_search" class="search_bar" placeholder="Поиск" onkeyup="search()" name="search" >
+                    </div>
+                   <div class="dropdown">
+                    <div id="myDropdown" class="dropdown-content">
+
+                        <a class="list" href="index.html">Главная</a>
+                        <a class="list" href="articles.html">Интересные статьи</a>
+                        <a class="list" href="media.html">Медиа</a>
+                        <a class="list" href="complaint.html">Жалобы</a>
+                        <a class="list" href="about_us.html">О нас</a>
+            
+                    </div>
+                    
+                    <button onclick="myFunction()" class="dropbtn" aria-label="Menu">
+                        <div class="burger-menu__stick"></div>
+                        <div class="burger-menu__stick"></div>
+                        <div class="burger-menu__stick"></div>
+                    </button>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div >
+            <div class="container_head_button">
+                <ul class="button_small">
+                    <li class="list_small"><a href="index.html">Правители</a></li>
+                    <li class="list_small"><a href="inventions.html">Изобретения</a></li>
+                    <li class="list_small"><a href="reforms.html">Реформы</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="small">
+            <div class = "container_search">
+                <input type="text" id="search_search_small" class="search_bar_small" onkeyup="search_small()" placeholder="Поиск">
+            </div>
+        </div>
+        <div class="container_hub">
+            <div class ="hub" >
+                <img src="pictures\Home.png" alt="Главная" width="25" height="25">
+                <ul class = "ul_hub">
+                    <li class="list_hub"><img src="pictures\arrow.png" alt="" width="25" height="25" class = "arrow"></li>
+                    <li class="list_hub"><a href="index.html">Российская империя</a></li>
+                    <li class="list_hub"><img src="pictures\arrow.png" alt="" width="25" height="25" class = "arrow"></li>
+                    <li class="list_hub"><a href="reforms.html">Реформы</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="main_container">
+            <div class="chapter">
+                <h2 >Реформы</h2>
+                <div class="line_main"></div>
+            </div>  
+            <table>
+                <thead>
+                    <tr>
+                        <th>Правление / Эпоха</th>
+                        <th>Название реформы</th>
+                        <th>Годы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="6">Петр I</td>
+                        <td>Создание Сената и Коллегий</td>
+                        <td>1711, 1718–1720</td>          
+                    </tr>
+                    <tr>        
+                        <td>Создание регулярной армии и флота</td>
+                        <td>1699–1720-е</td>    
+                    </tr>
+                    <tr>
+                        <td>Табель о рангах</td>
+                        <td>1722</td>          
+                    </tr>
+                    <tr>
+                        <td>Упразднение патриаршества</td>
+                        <td>1700–1721</td>         
+                    </tr>
+                    <tr>
+                        <td>Подушная подать и протекционизм</td>
+                        <td>1718–1724</td>            
+                    </tr>
+                    <tr>
+                        <td>«Европеизация» быта</td>
+                        <td>1698–1700-е</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Екатерина II</td>
+                        <td>Губернская реформа</td>
+                        <td>1775</td>
+                    </tr>
+                    <tr>
+                        <td>Уложенная комиссия</td>
+                        <td>1767–1768</td>
+                    </tr>
+                    <tr>    
+                        <td>Жалованные грамоты дворянству и городам</td>
+                        <td>1785</td>          
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Александр I</td>
+                        <td>Создание министерств</td>
+                        <td>1802</td>
+                    </tr>
+                    <tr>
+                        <td>Реформа народного просвещения</td>
+                        <td>1803–1804</td>
+                    </tr>
+                    <tr>
+                        <td>Проект Аракчеева</td>
+                        <td>1816–1857</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="6">Александр II</td>
+                        <td>Крестьянская реформа (отмена крепостного права)</td>
+                        <td>1861</td>
+                    </tr>
+                    <tr>
+                        <td>Земская и городская реформы</td>
+                        <td>1864, 1870</td>
+                    </tr>
+                    <tr>
+                        <td>Судебная реформа</td>
+                        <td>1864</td>
+                    </tr>
+                    <tr>
+                        <td>Военная реформа</td>
+                        <td>1874</td>
+                    </tr>
+                    <tr>
+                        <td>Финансовая реформа</td>
+                        <td>1860-е</td>
+                    </tr>
+                    <tr>
+                        <td>Реформа образования</td>
+                        <td>1863–1864</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">Александр III</td>
+                        <td>Контрреформы в земствах и городах</td>
+                        <td>1889–1892</td>
+                    </tr>
+                    <tr>
+                        <td>Контрреформы в образовании</td>
+                        <td>1884–1887</td>
+                    </tr>
+                    <tr>
+                        <td>Ограничения судебной реформы</td>
+                        <td>1880-е</td>
+                    </tr>
+                    <tr>
+                        <td>Ужесточение цензуры</td>
+                        <td>1882</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Николай II</td>
+                        <td>Создание Государственной Думы</td>
+                        <td>1905–1906</td>
+                    </tr>
+                    <tr>
+                        <td>Столыпинская аграрная реформа</td>
+                        <td>1906–1911</td>
+                    </tr>
+                    <tr>
+                        <td>Рабочее законодательство</td>
+                        <td>1897–1912</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        
+    </main>
+    <footer>
+        <div class="container_footer">
+            <p>2025-2026</p>
+            <p class="elevator-button">Наверх</p>
+            <p>25-ИСТ-1-2 Лобанов И.Д.</p>
+        </div>
+        <script>
+            // Elevator script included on the page, already.
+
+            window.onload = function() {
+            var elevator = new Elevator({
+                element: document.querySelector('.elevator-button'),
+                mainAudio: 'music/Cooking-Long-Version(chosic.com).mp3',
+                duration: 60000
+            });
+            }
+        </script>
+    </footer>
+    <script src="JavaScript.js"></script>
+</body>
+</html>

@@ -37,8 +37,7 @@ function search() {
         }
       }
     }
-  })
-  
+  }) 
 }
 
 function search_small() {
@@ -49,7 +48,7 @@ function search_small() {
 
     
 
-  input.addEventListener("keyup", function(event){
+input.addEventListener("keyup", function(event){
     if (event.keyCode ===13){
       for (i = 0; i < x.length; i++) {
         if (!x[i].innerHTML.toLowerCase().includes(input_big)) {
@@ -63,3 +62,6 @@ function search_small() {
   })
   
 }
+
+
+

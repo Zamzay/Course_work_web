@@ -1,3 +1,53 @@
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+    margin: 20px 0;
+
+}
+th, td { border: 1px solid gray; 
+    padding: 12px; 
+    text-align: left; 
+
+}
+th { 
+    background-color: #f4f4f4; 
+    font-weight: bold; 
+}
+
+h3{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+textarea{
+    border: gray 2px solid;
+    border-radius: 10px;
+    width: 300px;
+    max-width: 80%;
+}
+.input_text{
+    border: gray 2px solid;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#send, #back{
+    border: gray 2px solid;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+#send:hover{
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+#back:hover{
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+
 .dropbtn {
   background-color: #ffffff;
   color: white;
@@ -63,6 +113,7 @@
     border: 2px solid black;
     border-radius: 10px;
     margin: 20px;
+    max-width: 230px;
 }
 
 .list:hover{
@@ -86,6 +137,17 @@ footer{
     max-width: 1920px;
     margin: auto;
 }
+@media screen and (max-width: 500px){
+ .container_footer{
+    display: flex;
+    max-width: 1920px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
 
 .head{
     max-height: 145px;
@@ -140,6 +202,7 @@ ul {
     flex-direction: column;
     align-items: center;
     margin: 20px 0px 20px 0px;
+    text-align: center;
 }
 
 .media{
@@ -148,6 +211,8 @@ ul {
     border-radius: 10px;
     height: 200px;
     width: 400px;
+    object-fit: cover;
+    object-position: center;
 }
 
 
@@ -233,6 +298,8 @@ ul {
     border:gray solid 2px;
     width: 204px;
     height: 300px;
+    object-fit: cover;
+    object-position: center;
 }
 
 
@@ -276,6 +343,7 @@ main{
     padding: 30px;
 }
 
+
 .line_main{
     
     background-color: black;
@@ -289,7 +357,7 @@ main{
 .main_text{
     display: flex;
     text-align: justify;
-    align-items: center;
+    align-items: flex-start;
 }
 .text{
     display: flex;
@@ -409,6 +477,7 @@ p{
     display: flex;
     text-align: justify;
     flex-direction: column;
+    align-items: center;
 }
     
 }

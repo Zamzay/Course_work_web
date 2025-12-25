@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Российская Империя</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="elevator.js-1.0.1/elevator.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="head">
+                <div class="head_1">
+                    <div class="container_head">
+                        <h1>Российская<br>империя</h1>
+                        
+                        <div class="line_header"></div> <!--полоска-->
+                    </div>
+                    <div class="container_head_button">
+                        <ul>
+                            <li class="list_big"><a href="index.html">Правители</a></li>
+                            <li class="list_big"><a href="inventions.html">Изобретения</a></li>
+                            <li class="list_big"><a href="reforms.html">Реформы</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="head_1">
+                    <div class = "container_search">
+                        <input type="text" id="search_search" class="search_bar" placeholder="Поиск" onkeyup="search()" name="search" >
+                    </div>
+                   <div class="dropdown">
+                    <div id="myDropdown" class="dropdown-content">
+
+                        <a class="list" href="index.html">Главная</a>
+                        <a class="list" href="articles.html">Интересные статьи</a>
+                        <a class="list" href="media.html">Медиа</a>
+                        <a class="list" href="complaint.html">Жалобы</a>
+                        <a class="list" href="about_us.html">О нас</a>
+            
+                    </div>
+                    
+                    <button onclick="myFunction()" class="dropbtn" aria-label="Menu">
+                        <div class="burger-menu__stick"></div>
+                        <div class="burger-menu__stick"></div>
+                        <div class="burger-menu__stick"></div>
+                    </button>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div >
+            <div class="container_head_button">
+                <ul class="button_small">
+                    <li class="list_small"><a href="index.html">Правители</a></li>
+                    <li class="list_small"><a href="inventions.html">Достижения</a></li>
+                    <li class="list_small"><a href="reforms.html">Реформы</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="small">
+            <div class = "container_search">
+                <input type="text" id="search_search_small" class="search_bar_small" onkeyup="search_small()" placeholder="Поиск">
+            </div>
+        </div>
+        <div class="container_hub">
+            <div class ="hub" >
+                <img src="pictures\Home.png" alt="Главная" width="25" height="25">
+                <ul class = "ul_hub">
+                    <li class="list_hub"><img src="pictures\arrow.png" alt="" width="25" height="25" class = "arrow"></li>
+                    <li class="list_hub"><a href="index.html">Российская империя</a></li>
+                    <li class="list_hub"><img src="pictures\arrow.png" alt="" width="25" height="25" class = "arrow"></li>
+                    <li class="list_hub"><a href="complaint.html">Жалобы</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="main_container">
+            <div class="chapter">
+                <h2>Жалобы</h2>
+                <div class="line_main"></div>
+            </div>
+            <div id="printBlock"></div>
+            <p id="put_text"></p>
+            <input type="text" id="name" placeholder="Введите почту" class="input_text">
+            <form action="" name = "search">
+                <textarea name="area" id="feedback" placeholder="Напишите жалобу" class="textarea"></textarea>
+            </form>
+            <button id="send">Отправить</button>
+            <button id="back">Сбросить</button>
+        </div>
+            
+            
+        </div>
+        
+    </main>
+    <footer>
+        <div class="container_footer">
+            <p>2025-2026</p>
+            <p class="elevator-button">Наверх</p>
+            <p>25-ИСТ-1-2 Лобанов И.Д.</p>
+        </div>
+
+        <script>
+            // Elevator script included on the page, already.
+
+            window.onload = function() {
+            var elevator = new Elevator({
+                element: document.querySelector('.elevator-button'),
+                mainAudio: 'music/Cooking-Long-Version(chosic.com).mp3',
+                duration: 60000
+            });
+            }
+        </script>
+    </footer>
+    <script src="JavaScript.js"></script>
+   <script src="Complaint.js"></script>
+
+</body>
+</html>
